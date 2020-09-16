@@ -10,13 +10,11 @@
 <div class="container">
     <div class="input-group mb-3">
         <div class="input-group-prepend">
-            <button type="button" class="btn btn-outline-secondary oneBtn">Euro</button>
+            <button type="button" disabled class="btn btn-outline-secondary oneBtn">USD</button>
             <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="sr-only">Toggle Dropdown</span>
             </button>
             <div class="dropdown-menu one">
-                <a class="dropdown-item" href="#">USD</a>
-                <a class="dropdown-item" href="#">Euro</a>
                 <!--            <div role="separator" class="dropdown-divider"></div>-->
                 <!--            <a class="dropdown-item" href="#">Separated link</a>-->
             </div>
@@ -28,14 +26,16 @@
         <input type="text" readonly class="form-control second-input" aria-label="Text input with segmented dropdown button">
         <div class="input-group-append">
             <button type="button" disabled class="btn btn-outline-secondary twoBtn">USD</button>
-
+            <button type="button"  class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
             <div class="dropdown-menu two">
                 <a class="dropdown-item" href="#">USD</a>
-                <a class="dropdown-item" href="#">Euro</a>
             </div>
         </div>
     </div>
     <button type="button" class="btn btn-outline-secondary result">Конвертировать</button>
+    <button type="button" class="btn btn-outline-secondary change">Сменить</button>
 </div>
 
 
