@@ -15,7 +15,6 @@ firstInput.addEventListener('input', () => {
 one.addEventListener('click', (event) => {
     const target = event.target
     console.log(target.textContent)
-    value.firstValue = target.textContent
     oneBtn.textContent = target.textContent
     firstInput.value = ''
     secondInput.value = ''
